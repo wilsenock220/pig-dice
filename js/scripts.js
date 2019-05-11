@@ -3,8 +3,8 @@ $(document).ready(function(){
         $("#row").slideToggle();
     });
 
-    // $("#ru").click(function(){
-    //     $("#rules").slideToggle();
-    // });
+    $("#ru").click(function(){
+        $("#rules").slideToggle();
+    });
 });
         
