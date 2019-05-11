@@ -40,3 +40,10 @@ h1{
 .play{
     padding-bottom: 200px;
 }
+#h3{
+    font-family: 'Stylish', sans-serif;
+    font-size: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: blue;
+}
