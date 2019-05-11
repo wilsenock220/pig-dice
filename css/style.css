@@ -1,6 +1,7 @@
 #font{
     font-family: 'Akronim', cursive;
     color: red;
+    margin-top: -200px;
 }
 .container{
     text-align: center;
@@ -21,10 +22,14 @@
 }
 #row{
     display: none;
-    background-image: url('https://mdbootstrap.com/img/Photos/Others/background.jpg'); background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  
 }
+#push{ 
+    /* background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg'); */
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;}
 h1{
     font-size: 100px;
     color: blue;
@@ -50,11 +55,11 @@ h1{
 #rules{
     text-align: center;
     display: none;
-    background-color: blue;
-    opacity: 0.8;
-}
-.col-sm-6 card card-body white border-primary mb3{
-    background: transparent;
+    font-family: 'Yeon Sung', cursive;
+    margin: 10%;
+    margin-top: -10px;
+    color: red;
+    font-size: 20px;
 }
 #ru{
     text-align: center;
