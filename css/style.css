@@ -10,3 +10,9 @@
 .row{
     padding: 20px;
 } 
+#push{
+    justify-content: space-between;
+    margin-right: 10px;
+    width: 45%;
+    background: transparent;
+}
