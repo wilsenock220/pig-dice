@@ -32,3 +32,8 @@ h1{
 #colo{
     color: blueviolet;
 }
+
+#fon{
+    font-family: 'Modak', cursive;
+    font-size: 40px;
+}
