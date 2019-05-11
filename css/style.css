@@ -2,3 +2,8 @@
     font-family: 'Akronim', cursive;
     color: red;
 }
+.container{
+    text-align: center;
+    margin-top: 3%;
+    background: fixed;
+}
