@@ -47,3 +47,9 @@ h1{
     text-align: center;
     color: blue;
 }
+#rules{
+    text-align: center;
+    display: none;
+    background-color: blue;
+    opacity: 0.8;
+}
