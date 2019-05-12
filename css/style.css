@@ -1,7 +1,8 @@
 #font{
     font-family: 'Akronim', cursive;
     color: red;
-    margin-top: -200px;
+    margin-top: 10px;
+    margin-bottom: -200px;
 }
 .container{
     text-align: center;
@@ -15,21 +16,18 @@
     justify-content: space-between;
     margin-right: 10px;
     width: 45%;
-    background: transparent;
 }
 .score{
     font-size: 80px;
 }
 #row{
     display: none;
-  
-}
-#push{ 
-    /* background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table%20(7).jpg'); */
-    background: transparent;
+    /* background-image: url(http://eskipaper.com/images/digital-backgrounds-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;}
+    background-position: center center;
+    padding-bottom: 40px; */
+}
 h1{
     font-size: 100px;
     color: blue;

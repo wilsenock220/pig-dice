@@ -25,78 +25,82 @@
 
   <div style="height: 100vh" class="pig">
 
-    <div id="ru">
-        <button type="button" class="btn btn-primary btn-rounded" id="home">click to view the rules before you play!</button>
-    </div>
-     
- 
-    <div id="rules" class="card">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Roll one die for your first turn. Playing with two dice is optional</li>
-            <li class="list-group-item">Enter points on the score sheet if the number rolled is two, three,<br> four, five, or six points. If you roll a one, you lose all the points you <br>accumulated during that turn, and you lose your turn.</li>
-            <li class="list-group-item">Continue rolling the die until you're happy with the number of points<br> you've scored. Then, "hold" by handing the die over to your opponent, and track<br> all points earned during your turn.</li>
-            <li class="list-group-item">Reach 100 points first and win the game.</li>
-          </ul>
-    </div>
+        <div id="ru">
+            <button type="button" class="btn btn-primary btn-rounded" id="home">click to view the rules before you play!</button>
+        </div>
+        
     
-    <div class="flex-center flex-column">
+        <div id="rules" class="card">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Roll one die for your first turn. Playing with two dice is optional</li>
+                <li class="list-group-item">Enter points on the score sheet if the number rolled is two, three,<br> four, five, or six points. If you roll a one, you lose all the points you <br>accumulated during that turn, and you lose your turn.</li>
+                <li class="list-group-item">Continue rolling the die until you're happy with the number of points<br> you've scored. Then, "hold" by handing the die over to your opponent, and track<br> all points earned during your turn.</li>
+                <li class="list-group-item">Reach 100 points first and win the game.</li>
+              </ul>
+        </div>
+        
+        <div class="flex-center flex-column">
 
-          <h1 class="animated fadeIn mb-4 bounce infinite" id="font">PIG   DICE   GAME</h1>
-          <marquee behavior="cross" direction="down"><h3 class="animated fadeIn mb-3" id="h3">Welcome! Enjoy your game.</h3></marquee>
-          
-            <div class="wobble infinite">
-                <button type="button" class="btn peach-gradient btn-lg btn-bloc tada" id="click"><h2 class="animated fadeIn text-muted flipInX infinite" id="fon">CLICK  ME  TO  PLAY!!!</h2></button>    
-            </div>
-            
+              <h1 class="animated fadeIn mb-4 bounce infinite" id="font">PIG   DICE   GAME</h1>
+              <marquee behavior="cross" direction="up">
+              <h3 class="animated fadeIn mb-3" id="h3">Welcome! Enjoy your game.</h3>
+              <h3  class="animated fadeIn mb-3" id="h3">Goodluck</h3>
+              <img src="" alt="">
+              </marquee>
+              
+                <div class="wobble infinite">
+                    <button type="button" class="btn peach-gradient btn-lg btn-bloc tada" id="click"><h2 class="animated fadeIn text-muted flipInX infinite" id="fon">CLICK  ME  TO  PLAY!!!</h2></button>    
+                </div>
+                
         <div class="container" id="row">
 
 
-            <div class="row" id="dice">
-              
-                <div class="col-sm-6 card card-body white border-danger mb3"  id="push">
-                  <p class="card-header border-danger mb3">PLAYER  1</p>
-                  <h2>Your score</h2>
-                  <h2 class="score">0</h2>
+                <div class="row" id="dice">
 
-                  <div>
-                      <h4>Initial score</h4>
 
-                      <p>__________</p>
+                    <div class="card card-image mb-3 col-sm-6 card card-body white border-danger " id="push" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg');">
+                      <div class="text-white text-center d-flex align-items-center img-gradient-overlay py-5 px-4">
+                          <div>
+                              <h5 class="orange-text"><i class="fas fa-desktop"></i></h5>
+                              <h3 class="card-title pt-2"><strong>player 1</strong></h3>
+                              <h4>Initial scored</h4>
+                              <h1>0</h1>
+
+                              <h4>Total scored</h4>
+
+                              <p>_________</p>
+                              <a class="btn btn-deep-orange waves-effect waves-light"><i class="far fa-clone left"></i> View project</a>
+                          </div>
+                      </div>
                   </div>
-  
+
+                  <div class="card card-image mb-3 col-sm-6 card card-body white border-danger " style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg');">
+                    <div class="text-white text-center d-flex align-items-center img-gradient-overlay py-5 px-4">
+                        <div>
+                            <h5 class="orange-text"><i class="fas fa-desktop"></i></h5>
+                            <h3 class="card-title pt-2"><strong>player 2</strong></h3>
+                            <h4>Initial scored</h4>
+                            <h1>0</h1>
+
+                            <h4>Total scored</h4>
+
+                            <p>_________</p>
+                            <a class="btn btn-deep-orange waves-effect waves-light"><i class="far fa-clone left"></i> View project</a>
+                        </div>
+                    </div>
                 </div>
+
+            </div>
         
-                <div class="col-sm-6 card card-body white border-primary mb3" id="push">
-                  <p class="card-header border-danger mb3">PLAYER  2</p>
+      </div>
+    
+      <div class="play">
 
-                  <h4>Your score</h4>
-                  <h2 class="score">0</h2>
-                  <div>
-                    <h>Initial score</h4>
-
-                      <p>___________</p>
-                  </div>
-
-                </div>
-
-              
-            </div>
-
-            
-
-            <div class="play">
-              <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">roll</button> 
-              <button type="button" class="btn btn-outline-info btn-rounded waves-effect">hold</button>   
-            </div>
-
-            <div>
-                <a href="#home"> <img src="img/black.jpg" alt="black" width="40" height="40"></a>
-               
-            </div>
+          <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">roll</button> 
+          <button type="button" class="btn btn-outline-info btn-rounded waves-effect">hold</button>   
+          
         </div>
-     
-  </div>
- 
+
      
   </div>    
 
@@ -114,8 +118,8 @@
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="https://mdbootstrap.com/education/bootstrap/"> wilsenock220@gmail.com</a>
       </div>
-  </footer>
-  -->
+  </footer> -->
+
 </body>
 
 </html>
