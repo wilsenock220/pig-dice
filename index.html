@@ -58,48 +58,62 @@
                 <div class="row" id="dice">
 
 
-                    <div class="card card-image mb-3 col-sm-6 card card-body white border-danger " id="push" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg');">
+                    <div class="card card-image mb-3 col-sm-6 card card-body white border-danger " id="push" style="background-color: black">
                       <div class="text-white text-center d-flex align-items-center img-gradient-overlay py-5 px-4">
-                          <div>
+                          <div class="color">
                               <h5 class="orange-text"><i class="fas fa-desktop"></i></h5>
                               <h3 class="card-title pt-2"><strong>player 1</strong></h3>
                               <h4>Initial scored</h4>
-                              <h1>0</h1>
+                              <h1 class="rolled"></h1>
 
-                              <h4>Total scored</h4>
+                              <h4>Cumulative scored</h4>
 
-                              <p>_________</p>
+                              <p id="show1"></p>
+
+                               <h3>total score</h3>
+                              <p class="no"></p>
                             
                           </div>
+                          
+                      </div>
+                      <div class="play">
+
+                        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" id="roll1">roll</button> 
+                        <button type="button" class="btn btn-outline-info btn-rounded waves-effect" id="hold1">hold</button>   
+                        
                       </div>
                   </div>
 
-                  <div class="card card-image mb-3 col-sm-6 card card-body white border-danger " style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/City/6-col/img%20(47).jpg');">
+
+                  <div class="card card-image mb-3 col-sm-6 card card-body white border-danger " id="push" style="background-color: black">
                     <div class="text-white text-center d-flex align-items-center img-gradient-overlay py-5 px-4">
-                        <div>
+                        <div class="color">
                             <h5 class="orange-text"><i class="fas fa-desktop"></i></h5>
                             <h3 class="card-title pt-2"><strong>player 2</strong></h3>
                             <h4>Initial scored</h4>
-                            <h1>0</h1>
+                            <h1 class="rolled1"></h1>
 
-                            <h4>Total scored</h4>
+                            <h4>Cumulative scored</h4>
 
-                            <p>_________</p>
+                            <p id="show2"></p>
+
+                             <h3>total score</h3>
+                            <p class="no1"></p>
                           
                         </div>
+                       
                     </div>
+                    <div class="play1">
+
+                        <button type="button" class="btn btn-outline-primary btn-rounded waves-effect" id="roll1">roll</button> 
+                        <button type="button" class="btn btn-outline-info btn-rounded waves-effect" id="hold1">hold</button>   
+                        
+                      </div>
                 </div>
 
             </div>
         
       </div>
-    
-      <div class="play">
-
-          <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">roll</button> 
-          <button type="button" class="btn btn-outline-info btn-rounded waves-effect">hold</button>   
-          
-        </div>
 
      
   </div>    
@@ -113,12 +127,12 @@
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <script src="js/scripts.js"></script>
 
-<!-- 
+
   <footer class="page-footer font-small blue">
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="https://mdbootstrap.com/education/bootstrap/"> wilsenock220@gmail.com</a>
       </div>
-  </footer> -->
+  </footer> 
 
 </body>
 

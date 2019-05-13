@@ -1,4 +1,4 @@
-$(document).ready(function(){
+
     $("#click").click(function(){
         $("#row").slideToggle();
     });
@@ -6,52 +6,59 @@ $(document).ready(function(){
     $("#ru").click(function(){
         $("#rules").slideToggle();
     });
-});
-//  function Player(turn) {
-//   this.turn = turn;
-//   this.roll = 0;
-//   this.turnScore = 0;
-//   this.totalScore = 0;
-//  }
-//  function rollDice(){
-//   return Math.floor(6 * Math.random())+1;
-//  }
-//  Player.prototype.startGame = function() {
-//   this.roll = 0;
-//   this.turnScore = 0;
-//   this.totalScore = 0;
-//   this.playerName = "";
-//  }
-//  Player.prototype.roll1 = function() {
-//   if (this.roll === 1) {
-//     this.turnScore = 0;
-//     alert("Next Player");
-//   } else {
-//     this.turnScore += this.roll;
-//   }
-//  }
-//  Player.prototype.hold = function() {
-//   this.totalScore += this.turnScore;
-//   this.turnScore = 0;
-//   alert("Next Player");
-//  }
-//  Player.prototype.winnerCheck = function() {
-//   if (this.totalScore >= 100) {
-//     alert(" congratulations You won");
-//   }
- 
- 
-//   $("#hold1").click(function(){
-//   player1.hold();
-//   $("#score1").text(player1.totalScore);
-//   $("#points1").empty();
-//   $("#poi1").empty();
-//   player1.winnerCheck();
-//   });
-//   $("#hold2").click(function(){
-//   player2.hold();
-//   $("#score2").text(player2.totalScore);
-//   $("#points2").empty();
-//   $("#poi2").empty();
-//   player2.winnerCheck();
-//   });
+var roll, hold1, hold2, display1, display2;
+  hold1 = 0;
+  hold2 = 0;
+  display1 = 0;
+  dispaly2 = 0;
+
+
+    $("#roll1").click(function(){
+     var randomNo = Math.floor(Math.random() * 6)+1;
+        if(randomNo === 1){
+        alert("You rolled a 1");
+        hold1 = 0;
+        display1 += hold1;
+        $("#show").text(display1);
+        $(".play").hide();
+    }
+         else {
+             $(".rolled").text(randomNo);
+             hold1 += randomNo;
+             $(".no").text(hold1);
+         }
+
+    });
+    
+    $("#hold").click(function(){
+        display1 += hold1;
+        $("#show1").text(display1);
+        $(".play").hide();
+        hold1 = 0;
+    });
+
+    $("#roll2").click(function(){
+        var randomNo = Math.floor(Math.random() * 6)+1;
+           if(randomNo === 1){
+           alert("You rolled a 1");
+           hold2 = 0;
+           display2 += hold2;
+           $("#show").text(display2);
+           $(".play").hide();
+       }
+            else {
+                $(".rolled1").text(randomNo);
+                hold2 += randomNo;
+                $(".no1").text(hold2);
+            }
+   
+       });
+       
+       $("#hold1").click(function(){
+           display2 += hold2;
+           $("#show2").text(display1);
+           $(".play1").hide();
+           hold2 = 0;
+       });
+   
+       

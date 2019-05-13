@@ -14,24 +14,20 @@
 } 
 #push{
     justify-content: space-between;
-    margin-right: 10px;
-    width: 45%;
+    margin-right: 30px;
+    width: 30%;
 }
 .score{
     font-size: 80px;
 }
 #row{
-    display: none;
-    /* background-image: url(http://eskipaper.com/images/digital-backgrounds-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    padding-bottom: 40px; */
-}
+ display: none; 
+} 
 h1{
     font-size: 100px;
     color: blue;
 }
+
 #colo{
     color: blueviolet;
 }
@@ -41,7 +37,7 @@ h1{
     font-size: 40px;
 }
 .play{
-    padding-bottom: 200px;
+    margin-top: 3%;
 }
 #h3{
     font-family: 'Stylish', sans-serif;
@@ -61,5 +57,8 @@ h1{
 }
 #ru{
     text-align: center;
+}
+.color{
+    color: black;
 }
 
